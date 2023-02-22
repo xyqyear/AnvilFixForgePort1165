@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.xyqyear.anvilfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "anvilfix.refmap.json",
+  "mixins": [
+    "RepairContainerMixin"
+  ],
+  "client": [
+    "AnvilScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
